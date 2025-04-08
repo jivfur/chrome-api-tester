@@ -5,6 +5,10 @@ A handy Chrome extension to test your APIs directly from your browser! Send requ
 [![Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/tbyBjqi7Zu733AAKA5n4.png)](https://chromewebstore.google.com/detail/mini-api-test/penoflfnnofbobilcdclllkckijedngc)
 
 
+[![Buy Me A Coffee](bmc-button.png)](https://www.buymeacoffee.com/jivfur)
+
+Support my work by buying me a coffee! [https://www.buymeacoffee.com/jivfur](https://www.buymeacoffee.com/jivfur)
+
 ## Overview
 
 API Tester is a lightweight and intuitive Chrome extension designed for developers and testers to quickly interact with RESTful APIs. Forget switching to separate tools – now you can send requests and analyze responses without leaving your browser.
