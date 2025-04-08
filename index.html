@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Tester</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="request-builder">
+            <select id="method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
+            </select>
+            <input type="text" id="url" placeholder="Enter URL">
+            <button id="send"> <i class="fas fa-paper-plane"></i>Send</button>
+        </div>
+
+        <div class="config-tabs">
+            <button class="tab-button active" data-tab="headers">Headers</button>
+            <button class="tab-button" data-tab="params">Parameters</button>
+            <button class="tab-button" data-tab="body">Body</button>
+        </div>
+
+        <div class="config-sections">
+            <div id="headers" class="config-section active">
+                <div class="key-value">
+                    <input type="text" placeholder="Key" class="key">
+                    <input type="text" placeholder="Value" class="value">
+                </div>
+                <button id="add-header"><i class="fas fa-plus"></i>Add Header</button>
+            </div>
+            <div id="params" class="config-section">
+                <div class="key-value">
+                    <input type="text" placeholder="Key" class="key">
+                    <input type="text" placeholder="Value" class="value">
+                </div>
+                <button id="add-param"><i class="fas fa-plus"></i>Add Parameter</button>
+            </div>
+            <div id="body" class="config-section">
+                <select id="content-type">
+                    <option value="application/json">JSON</option>
+                    <option value="application/xml">XML</option>
+                    <option value="text/plain">Plain Text</option>
+                    <option value="multipart/form-data">Form Data</option>
+                </select>
+                <div id="body-text-area">
+                    <textarea id="request-body" placeholder="Request Body"></textarea>
+                </div>
+                <div id="form-fields" class="hidden">
+                    <div class="key-value">
+                        <input type="text" placeholder="Key" class="key">
+                        <input type="text" placeholder="Value" class="value">
+                    </div>
+                    <button id="add-form-field"><i class="fas fa-plus"></i>Add Field</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="response-display">
+            <div id="status">Status:</div>
+            <pre id="response-headers">Headers:</pre>
+            <textarea id="response-body" disabled>Body:</textarea>
+            <button id="copy-response"><i class="fas fa-copy"></i>Copy</button>
+            <button id="reset-request"><i class="fas fa-undo"></i>Reset</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
