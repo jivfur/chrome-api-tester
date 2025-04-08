@@ -2,7 +2,8 @@
 
 A handy Chrome extension to test your APIs directly from your browser! Send requests with various configurations and inspect the full response with ease.
 
-[![Chrome Web Store]([https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png](https://developer.chrome.com/static/docs/webstore/branding/image/tbyBjqi7Zu733AAKA5n4.png))](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID_HERE])
+[![Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/tbyBjqi7Zu733AAKA5n4.png)](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID_HERE])
+
 
 ## Overview
 
