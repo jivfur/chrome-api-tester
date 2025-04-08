@@ -2,7 +2,7 @@
 
 A handy Chrome extension to test your APIs directly from your browser! Send requests with various configurations and inspect the full response with ease.
 
-[![Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/tbyBjqi7Zu733AAKA5n4.png)](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID_HERE])
+[![Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/tbyBjqi7Zu733AAKA5n4.png)](https://chromewebstore.google.com/detail/mini-api-test/penoflfnnofbobilcdclllkckijedngc)
 
 
 ## Overview
@@ -28,7 +28,7 @@ API Tester is a lightweight and intuitive Chrome extension designed for develope
 
 ## Installation
 
-1.  **Visit the Chrome Web Store:** Go to the [API Tester Chrome Web Store listing](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID_HERE]).
+1.  **Visit the Chrome Web Store:** Go to the [API Tester Chrome Web Store listing](https://chromewebstore.google.com/detail/mini-api-test/penoflfnnofbobilcdclllkckijedngc).
 2.  **Add to Chrome:** Click the "Add to Chrome" button.
 3.  **Confirm Installation:** Click "Add extension" in the confirmation dialog.
 
@@ -51,7 +51,7 @@ The API Tester icon will now appear in your Chrome toolbar for easy access.
 
 If you encounter any issues or have suggestions for improvement, please feel free to:
 
-* **Leave a review** on the [Chrome Web Store listing](https://chrome.google.com/webstore/detail/[YOUR_EXTENSION_ID_HERE]).
+* **Leave a review** on the [Chrome Web Store listing](https://chromewebstore.google.com/detail/mini-api-test/penoflfnnofbobilcdclllkckijedngc).
 * **Report bugs or suggest features** on our [GitHub repository](https://github.com/jivfur/chrome-api-tester/issues).
 
 Your feedback is valuable in making API Tester even better!
