@@ -1,0 +1,39 @@
+# General OS and Editor junk
+.DS_Store
+.Thumbs.db
+ehthumbs.db
+*.log
+._*
+.Spotlight-V100
+.Trashes
+*.bak
+*.swp
+*.swo
+*.fuse_hidden*
+.localized
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+**/jsconfig.json
+**/tsconfig.json
+**/tslint.json
+
+# Node.js and npm
+node_modules/
+package-lock.json
+yarn.lock
+
+# Chrome Extension specific temporary files (if any)
+*.crx
+*.zip
+
+# Other temporary build or output directories (adjust as needed)
+dist/
+build/
+out/
+tmp/
+
+# Specific files you might want to ignore
+# config.js
+# secrets.json
